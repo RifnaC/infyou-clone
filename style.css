@@ -1,0 +1,235 @@
+header{
+    background-color: #fff;
+}
+.logo img{
+    width: 50px;
+    min-height: 70px;
+}
+.nav-link{
+    color: #0e1133;
+}
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+.navbar .nav-item {
+    padding: 10px 20px;
+  }
+.navbar .nav-link {
+    margin-left: 10px;  
+}
+
+.download button{
+    height: 47px;
+    border-radius: 10px;
+    font-size: 17px;
+}
+.download button:hover, .hero-btn1:hover{
+    background-color: #fff;
+    color: #db2930;
+    outline: #db2930;
+}
+.modal.fade .modal-dialog {
+    transition: none;
+}
+main{
+    overflow: hidden;
+}
+section{
+    width: 100vw;
+    max-height: 160vh;
+    background-color: #ec202710;
+}
+.hero-head{
+    font-size: 47px;
+    text-align: left;
+    line-height: 53px;
+    letter-spacing: normal;
+    color: #0e1133;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+.subtitle{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: left !important;
+    letter-spacing: normal;
+    color: #505056;
+}
+#work p, footer .subtitle{
+    text-align: center !important;
+}
+.hero-btn button{
+    width: 44%;
+    height: auto;
+    text-align: center;
+    font-size: 16px;
+}
+.hero-btn2{
+    color: #0e1133;
+}
+.img-back{
+    margin:auto;
+    z-index: -1;
+    margin-top: 3em;
+    width: 400px;
+    height: 480px;
+}
+.phone img{
+    margin:auto;
+    width: 300px;
+    height: auto;
+}
+.bg-color{
+    background-color: #eef1f6 ;
+}
+.carousel img {
+    width: auto;
+    height: 100vh;
+    margin: auto;
+    padding: auto;
+    margin-bottom: 10%;
+    padding-bottom: 20%;
+}
+.carousel-control-prev{
+    color: #db2930;
+}
+.Contact{
+    font-size: 36px;
+}
+textarea { resize: none; }
+ul{
+    list-style-type: none;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+}
+.social-media{
+    width: 40px;
+    height: 100%;
+}
+.Contact-col{
+    background-color: #ec202710;
+}
+.Contact-col h1{
+    font-size: 24px;
+    line-height: 30px;
+    text-align: left;
+    color: #2c234d;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+form input{
+    outline: none;
+    border: none;
+}
+input .form-control {
+    border: none !important;
+    outline: none !important;
+    height: 64px;
+    border-radius: none !important;
+}
+.footr-img img{
+    width: 80px;
+    min-height: 120px;
+}
+.ft-list li a{
+    font-size: .99em !important;
+}
+@media screen and (max-width:800px){
+    .navbar{
+    margin: auto auto !important;
+    padding: auto auto;
+    }   
+    .navbar button:hover{
+        outline: none;
+    } 
+    .navbar ul li{
+        text-align: center;
+    }
+    .navbar ul li a:hover{
+        color: #464fb9;
+        transition: 2s;
+    }
+    main,section,.container,.row,.col,p,h1,div{
+        padding-top: 0 !important 
+    }
+    #home p{
+        margin-top:0 !important;
+        padding-top: 0; 
+        text-align: center;
+    }
+    .hero-head{
+        font-size: 30px;
+        line-height: 36px;
+        text-align: center;
+    }
+    .hero-btn button{
+        margin: 0;
+        display: flex;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .hero-btn1,
+    .hero-btn2 {
+        font-size: 14px;
+        padding: 8px 16px;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-back{
+        margin: auto;
+        width: 300px;
+        height: 300px;
+        margin-top: 4.8em;
+        z-index: -1;
+    }
+    .phone{
+        width: 200px;
+        height: auto;
+        margin:  0 auto;
+    }
+    .phone img{
+        width: 100%;
+        margin:  2.5em auto;
+    }
+    .subtitle{
+        text-align: center !important;
+        font-size: 14px;
+    }
+    #contact h3{
+        text-align: left !important;
+    }
+    .Contact-col h1, .Contact-col p, .Contact-col form{
+        text-align: start !important;
+        margin: auto !important;
+    }
+    .Contact-col{
+        padding: 0 24px;
+    }
+    .ft-btn{
+        margin: auto !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center;
+    }
+    .ft-btn button{
+        width: 100%;
+        margin: auto;;
+    }
+    .cpy, .cpy p{
+        text-align: center;
+        margin: auto;
+        width: 76%;
+        font-size: 14px;
+    }
+}
